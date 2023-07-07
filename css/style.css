@@ -302,8 +302,6 @@ body {
 .slider__btn {
     width: 68px;
     height: 68px;
-    border-radius: 34px;
-background: linear-gradient(172deg, #FF7B4E 0%, #FF584E 100%), #8B8B8B;
 
 position: absolute;
 top: 50%;
@@ -317,4 +315,70 @@ z-index: 9;
 
 .slider__btn--next {
     right: -27px;
+}
+
+/* customers */
+
+.customers {
+    padding: 100px 0 133px;
+}
+
+.customers__row {
+    display: flex;
+    column-gap: 68px;
+}
+
+.customers__img {
+    max-width: 478px;
+
+}
+
+.customers__img img {
+    border-radius: 71.5px;
+}
+
+.custemars__title {
+    max-width: 565px;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+/* review */
+
+.review {
+    max-width: 490px;
+}
+
+.review__client {
+    display: flex;
+    align-items: center;
+    column-gap: 33px;
+    margin-bottom: 60px;
+}
+
+.review__client-avatar {
+    overflow: hidden;
+    width: 134px;
+    height: 134px;
+    border-radius: 50%;
+    background-color: #FF584E;
+}
+
+.review__client-title {
+    font-size: 33px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.review__client-country {
+    font-size: 25px;
+    color:var(--secondary);
+}
+
+.review__text {
+    margin-bottom: 30px;
+    color: #0f1f1c75;
+    font-size: 22px;
+    font-weight: 500;
 }

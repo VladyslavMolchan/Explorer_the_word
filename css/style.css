@@ -382,3 +382,60 @@ z-index: 9;
     font-size: 22px;
     font-weight: 500;
 }
+
+
+/* cta */
+
+
+.cta {
+    padding: 100px 0;
+}
+
+.container {
+
+}
+
+.cta__plate {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 60px;
+    min-height: 680px;
+    padding: 40px 15px;
+}
+
+.cta__plate::before,
+.cta__plate::after {
+    content: "";
+    position: absolute;
+    width: 63px;
+    height: 83px;
+}
+
+.cta__plate::before {
+    left: 74px;
+    bottom: 56px;
+    background-image: url('../img/cta/cta-el-02.svg');
+}
+
+.cta__plate::after {
+    top: 74px;
+    right: 80px;
+    background-image: url('../img/cta/cta-el-01.svg');
+}
+
+.cta__title {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.cta__text {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 60px;
+    color: #0f1f1c75;
+}
